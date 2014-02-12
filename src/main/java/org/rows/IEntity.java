@@ -1,4 +1,4 @@
 package org.rows;
 
-public interface IEntity {
+public interface IEntity<K extends IKey<M>> {
 }
